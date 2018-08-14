@@ -1,0 +1,45 @@
+/* --- Import Components stylesheets --- */
+@import url("components/avatar.css");
+@import url("components/button_basic.css");
+@import url("components/navbar.css");
+@import url("components/card.css");
+@import url("components/tab.css");
+/* .header {
+  display: flex ;
+	align-items: center ;
+  flex-direction: row ;
+	justify-content: space-between;
+  text-align: right;
+} */
+
+.header {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  top:0px;
+  font-size:small;
+  background:#A9A9A9;
+  color: white;
+  margin: 0;
+}
+.container {
+  background-color: #FFF;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  box-shadow: 5px 10px 10px 10px #888888;
+}
+
+.wrapper {
+  position: absolute;
+  right: 0;
+  background-color: #a4bfc7;
+  width: 100%;
+  margin-top: 72px;
+}
+
+/* .grp_profil {
+  border: 1px solid black;
+} */

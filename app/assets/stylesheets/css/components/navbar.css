@@ -1,0 +1,27 @@
+
+.head_nav {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav0 {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.grp_btn {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.grp_profil {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
